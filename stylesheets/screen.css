@@ -489,3 +489,13 @@ textarea {
   font: inherit;
   /* 2 */
 }
+
+/* line 1, ../scss/06-components/_00.base.scss */
+.c-logo2 {
+  background: #DDD url('/images/foo/35sdfsdf') repeat-x scroll top center;
+}
+
+/* line 5, ../scss/06-components/_00.base.scss */
+.c-logo2 {
+  background-image: url("../../assets/images/350x150.png");
+}

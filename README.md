@@ -100,6 +100,7 @@
 
 - http://sass-lang.com
 - http://compass-style.org/
+- http://chriseppstein.github.io/blog/2010/05/17/where-are-your-images/
 - http://itcss.io/
 - https://speakerdeck.com/dafed/managing-css-projects-with-itcss
 - [ITCSS Talk by Harry Roberts](http://youtu.be/1OKZOV-iLj4)

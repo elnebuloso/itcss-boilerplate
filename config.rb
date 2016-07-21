@@ -1,12 +1,17 @@
 require 'compass/import-once/activate'
 # Require any additional compass plugins here.
 
-# Set this to the root of your project when deployed:
 http_path = "/"
+# project_path = File.expand_path(File.join(File.dirname(__FILE__), '..'))
 css_dir = "stylesheets"
 sass_dir = "scss"
 images_dir = "assets/images"
-javascripts_dir = "javascripts"
+javascripts_dir = "assets/javascripts"
+fonts_dir = "assets/fonts"
+http_javascripts_dir = "javascripts"
+http_stylesheets_dir = "stylesheets"
+http_images_dir = "images/foo"
+http_fonts_dir = "fonts"
 
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed
