@@ -98,6 +98,9 @@
 
 ### links
 
+- http://sass-lang.com
+- http://compass-style.org/
 - http://itcss.io/
 - https://speakerdeck.com/dafed/managing-css-projects-with-itcss
 - [ITCSS Talk by Harry Roberts](http://youtu.be/1OKZOV-iLj4)
+- http://thesassway.com/editorial/sass-vs-scss-which-syntax-is-better
