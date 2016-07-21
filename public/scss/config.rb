@@ -3,6 +3,7 @@ require 'compass/import-once/activate'
 
 # Set this to the root of your project when deployed:
 http_path = "/"
+project_path = File.expand_path(File.join(File.dirname(__FILE__), '..'))
 css_dir = "css"
 sass_dir = "scss"
 images_dir = "images"
