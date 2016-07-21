@@ -5,12 +5,12 @@
 - The goal of ITCSS is to have a clear and strict structure way to specificate (s)css styles. 
 - The direction of the following explained file structure goes from generic (low specificity) to explicit (high specificity).
 
-## using wonderful vendor projects
+### using wonderful vendor projects
 
 - https://github.com/necolas/normalize.css
 - https://github.com/zessx/sass-flexbox
 
-### structure
+### ITCSS
 
 #### 01-variables
 
@@ -48,6 +48,53 @@
 
 - ITCSS (trumps)
 - Only Place where !important allowed
+
+### BEM
+
+```
+/**
+ * Block
+ */
+.c-example {
+
+    /* 1: Add the direct properties of the element */
+    property: value;
+
+    /* 2: Add media queries or print styles */
+    @media (--breakpoint-10) {
+        property: value;
+    }
+
+    /* 3: Add selectors of the parent element */
+    &:hover {
+        property: value;
+    }
+
+    /* 4: Add temporary states of the parent element */
+    &.is-open {
+        property: value;
+    }
+
+    /* 5: Add nested elements */
+    & strong {
+        property: value;
+    }
+}
+
+/*
+ * Modifier
+ */
+.c-example--modifier {
+    property: value;
+}
+
+/*
+ * Element
+ */
+.c-example__subcomponent {
+    property: value;
+}
+```
 
 ### links
 
