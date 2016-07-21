@@ -19,14 +19,17 @@
 #### 02-mixins
 
 - ITCSS (tools)
+- vendor folder contains external projects scss files
 
 #### 03-normalize
 
 - ITCSS (generic)
+- vendor folder contains external projects scss files
 
 #### 04-tags
 
 - ITCSS (base)
+- styling standard html tags
 
 #### 05-patterns
 
@@ -39,10 +42,12 @@
 #### 07-externals
 
 - ITCSS (no equivalent)
+- vendor folder contains external projects scss files
 
 #### 08-override
 
 - ITCSS (trumps)
+- Only Place where !important allowed
 
 ### links
 
