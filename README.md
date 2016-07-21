@@ -5,6 +5,11 @@
 - The goal of ITCSS is to have a clear and strict structure way to specificate (s)css styles. 
 - The direction of the following explained file structure goes from generic (low specificity) to explicit (high specificity).
 
+## using wonderful vendor projects
+
+- https://github.com/necolas/normalize.css
+- https://github.com/zessx/sass-flexbox
+
 ### structure
 
 #### 01-variables
