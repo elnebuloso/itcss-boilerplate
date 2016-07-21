@@ -1,5 +1,4 @@
 require 'compass/import-once/activate'
-# Require any additional compass plugins here.
 
 project_path = File.expand_path(File.join(File.dirname(__FILE__), '..'))
 
