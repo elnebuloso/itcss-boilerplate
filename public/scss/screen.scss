@@ -1,3 +1,6 @@
+/**
+ * CSS Compiled on: #{current-date() current-time()}
+ */
 @import "01-variables/_00.base";
 // -----------------------------------------------------------------------
 @import "02-mixins/_00.base";
@@ -16,13 +19,26 @@
 // -----------------------------------------------------------------------
 @import "08-override/_00.base";
 
-
-
-
-.c-logo1 {
+.logo1 {
     background: #cccccc image-url("350x150.png") repeat-x scroll top center;
 }
 
-.c-logo2 {
+.logo2 {
     background: #cccccc image-url("350x150.png") repeat-x scroll top center;
+}
+
+.foo {
+    color: green;
+
+    .bar {
+        color: blue;
+
+        .barbaz {
+            color: red;
+        }
+    }
+
+    .baz {
+        color: purple;
+    }
 }

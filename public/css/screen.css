@@ -1,4 +1,7 @@
 /**
+ * CSS Compiled on: 2017-08-05 11:22:18+00:00
+ */
+/**
 * SassFlexbox
 * Manage Flexbox in Sass easily.
 *
@@ -491,11 +494,28 @@ textarea {
 }
 
 /* line 22, ../scss/screen.scss */
-.c-logo1 {
+.logo1 {
   background: #cccccc url('../images/350x150.png?1469136042') repeat-x scroll top center;
 }
 
 /* line 26, ../scss/screen.scss */
-.c-logo2 {
+.logo2 {
   background: #cccccc url('../images/350x150.png?1469136042') repeat-x scroll top center;
+}
+
+/* line 30, ../scss/screen.scss */
+.foo {
+  color: green;
+}
+/* line 33, ../scss/screen.scss */
+.foo .bar {
+  color: blue;
+}
+/* line 36, ../scss/screen.scss */
+.foo .bar .barbaz {
+  color: red;
+}
+/* line 41, ../scss/screen.scss */
+.foo .baz {
+  color: purple;
 }
