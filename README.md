@@ -10,11 +10,11 @@
 - https://github.com/necolas/normalize.css
 - https://github.com/zessx/sass-flexbox
 
-## compiling
+## compiling examples
 
 ```
-docker run -v ${PWD}/public:/app/public elnebuloso/compass:1.0.0 compass compile public
-docker run -v ${PWD}/public:/app/public elnebuloso/compass:1.0.0 compass watch public --poll
+docker run -v ${PWD}:/app elnebuloso/compass compass compile /app/public
+docker run -v ${PWD}:/app elnebuloso/compass compass watch /app/public --poll
 ```
 
 ### ITCSS
