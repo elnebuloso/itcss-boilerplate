@@ -1,5 +1,7 @@
 # itcss-boilerplate
 
+![abandoned](https://img.shields.io/badge/project-abandoned-red)
+
 ## ITCSS, Sass and BEM
 
 - The goal of ITCSS is to have a clear and strict structure way to specificate (s)css styles. 
